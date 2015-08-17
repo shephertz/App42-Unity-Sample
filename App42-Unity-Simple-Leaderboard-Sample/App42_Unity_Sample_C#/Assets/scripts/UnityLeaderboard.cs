@@ -29,7 +29,7 @@ public class UnityLeaderboard : MonoBehaviour, App42CallBack
 	{
 		App42API.Initialize(cons.apiKey, cons.secretKey);
 		App42API.SetOfflineStorage (true, 20);
-		App42Log.SetDebug (true);
+		//App42Log.SetDebug (true);
 	}
 	
 	void OnGUI ()
